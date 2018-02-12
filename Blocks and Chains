@@ -66,5 +66,5 @@ for(let i = 1; i < 10; i++) {
 //console.log('Is Blockchain valid? ' + DataLabChain.isValid());
 
 //DataLabChain.chain[2].data = 999;
-console.log('Is Blockchain valid? ' + DataLabChain.isValid());
+//console.log('Is Blockchain valid? ' + DataLabChain.isValid());
 //console.log(JSON.stringify(DataLabChain, null, 4));
