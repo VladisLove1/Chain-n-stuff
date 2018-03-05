@@ -112,6 +112,9 @@ console.log('\nBalance of datalab is: ', DataLabChain.getBalanceOfAddress('datal
 console.log('\nStarting the miner again ... ');
 DataLabChain.minePendingTransactions('datalab-address');
 
+console.log('\nStarting the miner again ... ');
+DataLabChain.minePendingTransactions('datalab-address');
+
 console.log('\nBalance of datalab is: ', DataLabChain.getBalanceOfAddress('datalab-address') + ' coins');
 
 /*
