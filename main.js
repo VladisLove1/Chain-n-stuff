@@ -115,11 +115,11 @@ DataLabChain.minePendingTransactions('datalab-address');
 console.log('\nBalance of datalab is: ', DataLabChain.getBalanceOfAddress('datalab-address') + ' coins');
 
 /*
-for(let i = 1; i < 10; i++) {
-    let now = new Date();
-    if(DataLabChain.isValid() == true){
-        console.log('Mining block #' + i.toString() + ' ...');
-        DataLabChain.addBlock(new Block(i, now.getSeconds() + 's ' + now.getMilliseconds() + 'ms ' + i.toString(), Math.random(i,100)));
-    }
-}
+*for(let i = 1; i < 10; i++) {
+*    let now = new Date();
+*    if(DataLabChain.isValid() == true){
+*        console.log('Mining block #' + i.toString() + ' ...');
+*        DataLabChain.addBlock(new Block(i, now.getSeconds() + 's ' + now.getMilliseconds() + 'ms ' + i.toString(), Math.random(i,100)));
+*    }
+*}
 */
